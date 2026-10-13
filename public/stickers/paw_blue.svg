@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" fill="none">
+  <defs>
+    <!-- Paper texture filter -->
+    <filter id="crayon-texture-blue" x="-10%" y="-10%" width="120%" height="120%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.04" numOctaves="3" result="noise" />
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="1.5" xChannelSelector="R" yChannelSelector="G" />
+    </filter>
+  </defs>
+
+  <!-- Die-cut sticker cream background with wavy contour -->
+  <path
+    d="M48 118 C30 85, 52 46, 96 38 C140 30, 185 52, 196 92 C208 135, 188 178, 150 196 C112 214, 65 198, 48 160 C40 142, 42 128, 48 118 Z"
+    fill="#fdf8ec"
+    stroke="#ecdcb7"
+    stroke-width="3"
+  />
+
+  <!-- Dashed stitch outline -->
+  <path
+    d="M53 118 C38 88, 58 53, 98 45 C138 37, 178 57, 188 94 C198 132, 180 171, 146 187 C112 203, 70 189, 54 156 C47 140, 48 127, 53 118 Z"
+    fill="none"
+    stroke="#c8a876"
+    stroke-width="2.2"
+    stroke-dasharray="5 4.5"
+    stroke-linecap="round"
+  />
+
+  <!-- Radiating yellow dashes -->
+  <line x1="42" y1="140" x2="60" y2="145" stroke="#f59e0b" stroke-width="6.5" stroke-linecap="round" />
+  <line x1="50" y1="165" x2="63" y2="155" stroke="#f59e0b" stroke-width="6.5" stroke-linecap="round" />
+  <line x1="198" y1="135" x2="180" y2="142" stroke="#f59e0b" stroke-width="6.5" stroke-linecap="round" />
+  <line x1="192" y1="160" x2="178" y2="152" stroke="#f59e0b" stroke-width="6.5" stroke-linecap="round" />
+
+  <!-- Blue Paw Toes (4 angled bean toes) -->
+  <!-- Toe 1 (leftmost) -->
+  <g filter="url(#crayon-texture-blue)">
+    <ellipse cx="68" cy="112" rx="15" ry="20" transform="rotate(-22 68 112)" fill="#1657c9" />
+    <ellipse cx="101" cy="78" rx="16.5" ry="24" transform="rotate(-10 101 78)" fill="#1657c9" />
+    <ellipse cx="140" cy="78" rx="16.5" ry="24" transform="rotate(10 140 78)" fill="#1657c9" />
+    <ellipse cx="172" cy="112" rx="15" ry="20" transform="rotate(22 172 112)" fill="#1657c9" />
+
+    <!-- Main paw pad -->
+    <path
+      d="M80 138 C68 152, 78 180, 102 182 C114 183, 126 183, 138 182 C162 180, 172 152, 160 138 C150 120, 132 115, 120 122 C108 115, 90 120, 80 138 Z"
+      fill="#1657c9"
+    />
+  </g>
+</svg>

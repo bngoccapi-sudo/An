@@ -1,0 +1,399 @@
+{
+  "groups": {
+    "DUO2026": {
+      "code": "DUO2026",
+      "name": "Alex & Emma 🐾",
+      "password": "123",
+      "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=duocute",
+      "createdAt": 1791797017300,
+      "users": {
+        "user1": {
+          "id": "user1",
+          "name": "Alex",
+          "avatar": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=150&auto=format&fit=crop&q=80",
+          "pawColor": "blue",
+          "birthday": "2000-11-20",
+          "bio": "Enjoys coding, cooking dinners and film photography 📸",
+          "homeAddress": "Downtown Apartment",
+          "workAddress": "Tech Tower Office",
+          "email": "alex.duo@example.com",
+          "phone": "0987654321"
+        },
+        "user2": {
+          "id": "user2",
+          "name": "Emma",
+          "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+          "pawColor": "yellow",
+          "birthday": "2001-08-15",
+          "bio": "Enjoys painting, design podcasts and cozy cafes 🧸",
+          "homeAddress": "Garden Studio",
+          "workAddress": "Creative Hub",
+          "email": "emma.duo@example.com",
+          "phone": "0912345678"
+        }
+      },
+      "messages": [
+        {
+          "id": "msg-1",
+          "senderId": "user1",
+          "text": "Are you free for afternoon coffee today? ☕",
+          "timestamp": 1791795217300,
+          "status": "read"
+        },
+        {
+          "id": "msg-2",
+          "senderId": "user2",
+          "text": "Yes sweetheart! Pick me up at 7 PM. I just added it to our weekly schedule! 💛",
+          "timestamp": 1791795517300,
+          "status": "read"
+        },
+        {
+          "id": "msg-3",
+          "senderId": "user1",
+          "text": "Yay! Don't forget to drop our stamps into the jar today 🐾",
+          "timestamp": 1791796717300,
+          "status": "read"
+        },
+        {
+          "id": "msg-1791797237043-msaf",
+          "senderId": "user2",
+          "text": "Can't wait to see you soon! ❤️",
+          "timestamp": 1791797237043,
+          "status": "read"
+        }
+      ],
+      "calendar": {
+        "2026-10-02": {
+          "date": "2026-10-02",
+          "actions": [],
+          "notes": []
+        },
+        "2026-10-03": {
+          "date": "2026-10-03",
+          "actions": [
+            {
+              "id": "act-3-1",
+              "type": "paw_blue",
+              "userId": "user1",
+              "label": "His Paw Stamp",
+              "timestamp": 1791019417300
+            },
+            {
+              "id": "act-3-2",
+              "type": "paw_yellow",
+              "userId": "user2",
+              "label": "Her Paw Stamp",
+              "timestamp": 1791019417300
+            }
+          ],
+          "notes": []
+        },
+        "2026-10-04": {
+          "date": "2026-10-04",
+          "actions": [
+            {
+              "id": "act-4-1",
+              "type": "paw_blue",
+              "userId": "user1",
+              "label": "His Paw Stamp",
+              "timestamp": 1791105817300
+            },
+            {
+              "id": "act-4-2",
+              "type": "paw_yellow",
+              "userId": "user2",
+              "label": "Her Paw Stamp",
+              "timestamp": 1791105817300
+            }
+          ],
+          "notes": []
+        },
+        "2026-10-05": {
+          "date": "2026-10-05",
+          "actions": [
+            {
+              "id": "act-5-1",
+              "type": "paw_blue",
+              "userId": "user1",
+              "label": "His Paw Stamp",
+              "timestamp": 1791192217300
+            },
+            {
+              "id": "act-5-2",
+              "type": "paw_yellow",
+              "userId": "user2",
+              "label": "Her Paw Stamp",
+              "timestamp": 1791192217300
+            }
+          ],
+          "notes": []
+        },
+        "2026-10-07": {
+          "date": "2026-10-07",
+          "actions": [
+            {
+              "id": "act-7-1",
+              "type": "paw_blue",
+              "userId": "user1",
+              "label": "His Paw Stamp",
+              "timestamp": 1791365017300
+            },
+            {
+              "id": "act-7-2",
+              "type": "paw_yellow",
+              "userId": "user2",
+              "label": "Her Paw Stamp",
+              "timestamp": 1791365017300
+            }
+          ],
+          "notes": []
+        },
+        "2026-10-08": {
+          "date": "2026-10-08",
+          "actions": [
+            {
+              "id": "act-8-1",
+              "type": "paw_blue",
+              "userId": "user1",
+              "label": "His Paw Stamp",
+              "timestamp": 1791451417300
+            },
+            {
+              "id": "act-8-2",
+              "type": "paw_yellow",
+              "userId": "user2",
+              "label": "Her Paw Stamp",
+              "timestamp": 1791451417300
+            },
+            {
+              "id": "act-8-3",
+              "type": "food",
+              "userId": "user2",
+              "label": "Food",
+              "timestamp": 1791451417300,
+              "imageUrl": "/icons/icon_6.png"
+            }
+          ],
+          "notes": [
+            {
+              "id": "n-8",
+              "userId": "user2",
+              "authorName": "Emma",
+              "content": "Delicious BBQ feast together, so tasty and fun!",
+              "timestamp": 1791451417300
+            }
+          ]
+        },
+        "2026-10-12": {
+          "date": "2026-10-12",
+          "actions": [
+            {
+              "id": "stg-1791817357612-gzwe",
+              "type": "paw_blue",
+              "imageUrl": "/icons/icon_1.png",
+              "userId": "user1",
+              "label": "His Paw Stamp",
+              "timestamp": 1791817566529
+            },
+            {
+              "id": "stg-1791817358478-i429",
+              "type": "flower",
+              "imageUrl": "/icons/icon_3.png",
+              "userId": "user1",
+              "label": "Tulip",
+              "timestamp": 1791817566529
+            }
+          ],
+          "notes": [
+            {
+              "id": "n-12",
+              "userId": "user1",
+              "authorName": "Alex",
+              "content": "A wonderful blooming day, thank you for the sweet flowers 🌸",
+              "timestamp": 1791797017300
+            }
+          ]
+        },
+        "2026-10-13": {
+          "date": "2026-10-13",
+          "actions": [
+            {
+              "id": "stg-1791817555863-nse7",
+              "type": "flower",
+              "imageUrl": "/icons/icon_3.png",
+              "userId": "user1",
+              "label": "Tulip",
+              "timestamp": 1791817556979
+            },
+            {
+              "id": "stg-1791817556529-7wi1",
+              "type": "paw_yellow",
+              "imageUrl": "/icons/icon_2.png",
+              "userId": "user1",
+              "label": "Her Paw Stamp",
+              "timestamp": 1791817556979
+            }
+          ],
+          "notes": []
+        },
+        "2026-10-11": {
+          "date": "2026-10-11",
+          "actions": [
+            {
+              "id": "stg-1791817573313-21no",
+              "type": "paw_yellow",
+              "imageUrl": "/icons/icon_2.png",
+              "userId": "user1",
+              "label": "Her Paw Stamp",
+              "timestamp": 1791817574980
+            },
+            {
+              "id": "stg-1791817573596-gkbo",
+              "type": "flower",
+              "imageUrl": "/icons/icon_3.png",
+              "userId": "user1",
+              "label": "Tulip",
+              "timestamp": 1791817574980
+            },
+            {
+              "id": "stg-1791817573863-8l7a",
+              "type": "house",
+              "imageUrl": "/icons/icon_4.png",
+              "userId": "user1",
+              "label": "Home",
+              "timestamp": 1791817574980
+            }
+          ],
+          "notes": []
+        },
+        "2026-10-18": {
+          "date": "2026-10-18",
+          "actions": [],
+          "notes": []
+        }
+      },
+      "schedules": [
+        {
+          "id": "sch-1",
+          "userId": "user1",
+          "dayOfWeek": 1,
+          "time": "09:00",
+          "title": "Weekly Team Sync",
+          "category": "work",
+          "note": "Q4 milestones and product roadmap",
+          "completed": false
+        },
+        {
+          "id": "sch-2",
+          "userId": "user1",
+          "dayOfWeek": 3,
+          "time": "18:00",
+          "title": "Pilates & Core Training",
+          "category": "exercise",
+          "note": "Downtown Yoga Studio",
+          "completed": false
+        },
+        {
+          "id": "sch-3",
+          "userId": "user1",
+          "dayOfWeek": 6,
+          "time": "19:00",
+          "title": "Romantic Dinner Date",
+          "category": "date",
+          "note": "Riverside Italian Bistro",
+          "completed": false
+        },
+        {
+          "id": "sch-4",
+          "userId": "user2",
+          "dayOfWeek": 1,
+          "time": "08:30",
+          "title": "Tech Sprint Planning",
+          "category": "work",
+          "note": "Backlog refinement & scope",
+          "completed": true
+        },
+        {
+          "id": "sch-5",
+          "userId": "user2",
+          "dayOfWeek": 4,
+          "time": "17:30",
+          "title": "Gym & 5km Run",
+          "category": "exercise",
+          "note": "Cardio & treadmill",
+          "completed": false
+        },
+        {
+          "id": "sch-6",
+          "userId": "user2",
+          "dayOfWeek": 6,
+          "time": "18:30",
+          "title": "Pick up partner for dinner",
+          "category": "date",
+          "note": "Remember a cozy jacket",
+          "completed": false
+        }
+      ],
+      "customIcons": [
+        {
+          "id": "custom-1791801483876-zfcx",
+          "name": "His Paw Stamp",
+          "url": "/icons/icon_1.png",
+          "createdBy": "user1",
+          "createdAt": 1791801483876
+        },
+        {
+          "id": "custom-1791801483878-rn2f",
+          "name": "Her Paw Stamp",
+          "url": "/icons/icon_2.png",
+          "createdBy": "user1",
+          "createdAt": 1791801483878
+        },
+        {
+          "id": "custom-1791801488907-1g96",
+          "name": "Tulip",
+          "url": "/icons/icon_3.png",
+          "createdBy": "user1",
+          "createdAt": 1791801488907
+        },
+        {
+          "id": "custom-1791801488909-yvx1",
+          "name": "Home",
+          "url": "/icons/icon_4.png",
+          "createdBy": "user1",
+          "createdAt": 1791801488909
+        },
+        {
+          "id": "custom-1791801495572-1kgv",
+          "name": "Food",
+          "url": "/icons/icon_6.png",
+          "createdBy": "user1",
+          "createdAt": 1791801495572
+        }
+      ],
+      "notifications": [
+        {
+          "id": "notif-init-1",
+          "senderId": "user2",
+          "senderName": "Emma",
+          "type": "schedule_add",
+          "title": "New schedule added",
+          "message": "Emma added \"Pick up partner for dinner\" (18:30)",
+          "timestamp": 1791795517300,
+          "read": false
+        },
+        {
+          "id": "notif-init-2",
+          "senderId": "user2",
+          "senderName": "Emma",
+          "type": "calendar_save",
+          "title": "Calendar date updated",
+          "message": "Emma added stamps for 2026-10-08",
+          "timestamp": 1791451417300,
+          "read": true,
+          "dateKey": "2026-10-08"
+        }
+      ]
+    }
+  }
+}

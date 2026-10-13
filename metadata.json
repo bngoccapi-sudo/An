@@ -1,0 +1,11 @@
+{
+  "name": "Remix Remix Remix Remix DuoSpace - Không Gian Cặp Đôi 2 Chiều",
+  "description": "Ứng dụng tương tác 2 chiều cho cặp đôi và nhóm 2 người: chat thời gian thực với trạng thái đã xem, lịch streak stamps, bình heo thủy tinh tích lũy icon, hồ sơ cá nhân và lịch trình tuần đồng bộ.",
+  "requestFramePermissions": [
+    "CAMERA",
+    "MICROPHONE"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
